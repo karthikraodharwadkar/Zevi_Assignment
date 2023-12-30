@@ -1,0 +1,29 @@
+.company-logo{
+    width: 86px;
+    height: 44px;
+    position: absolute;
+    right:40px;
+    top: 40px;
+}
+.landingPage-searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.landingPage-container{
+    background: url("../Assest/LandingPage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 98vh;
+    width: 100%;
+}
+@media (max-width:465px){
+    .landingPage-searchBar{
+      margin-left: 17px;
+}
+
+}

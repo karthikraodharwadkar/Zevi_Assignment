@@ -1,0 +1,22 @@
+.searchBar-text-input{
+    width: 40vw;
+    max-height: 35px;
+    border-radius: 13.735px;
+    border: 0.687px solid rgba(0, 0, 0, 0.50);
+    padding: 13px 30.373px 12px 27.47px;
+    background: #FFF;   
+    font-size: 20px;
+    
+}
+.searchBar-icon{
+    position: relative;
+    right:60px;
+    top:5px;
+}
+@media (max-width:465px){
+    .searchBar-text-input{
+        max-width: 230px;
+        max-height: 35px;
+    }
+    
+}

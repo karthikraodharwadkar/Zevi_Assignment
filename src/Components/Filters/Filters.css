@@ -1,0 +1,22 @@
+.filters-header {
+  color: #000;
+  font-size: 40px;
+  font-weight: 400;
+}
+.category-filter-header{
+    color:#2F3037;
+    font-size: 20px;
+    font-weight: 500;
+}
+.accordion{
+    width: 270px;
+    height: auto;
+    border: none;
+    padding: 5px;
+}
+
+@media(max-width:465px){
+    .filters-header{
+        text-align: center;
+    }
+}
